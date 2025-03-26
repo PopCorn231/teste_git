@@ -14,3 +14,8 @@ n4 = int(input("Digite sua nota: "))
 
 media = calcular_media(n1, n2, n3, n4)
 exibir_media(media)
+
+if media > 6:
+    print("Você foi aprovado.")
+else:
+    print("Você foi reprovado.")
